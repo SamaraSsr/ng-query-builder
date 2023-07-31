@@ -1,15 +1,14 @@
 {
-  "name": "ngx-angular-query-builder",
+  "name": "ng-query-builder",
   "version": "16.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-package": "ng build ngx-angular-query-builder",
+    "build-package": "ng build ng-query-builder",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",
@@ -39,5 +38,23 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^16.0.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "description": "The goal of this project is to enable Angular 12+ support for the original [angular2-query-builder](https://github.com/zebzhao/Angular-QueryBuilder). It is *not* production ready. This project may not be maintained. Should the original project become active again, this library may be abandoned.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamaraSsr/ng-query-builder.git"
+  },
+  "keywords": [
+    "query-builder",
+    "angular",
+    "query-builder",
+    "search"
+  ],
+  "author": "SamaraSsr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamaraSsr/ng-query-builder/issues"
+  },
+  "homepage": "https://github.com/SamaraSsr/ng-query-builder#readme"
 }

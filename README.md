@@ -18,13 +18,13 @@ Use the following versions depending upon your angular version
 
 # Examples
 
-npm install ngx-angular-query-builder
+npm install ng-query-builder
 
 ## Basic Usage
 
 ##### `app.module.ts`
 ```javascript
-import { NgxAngularQueryBuilderModule } from "ngx-angular-query-builder";
+import { NgxAngularQueryBuilderModule } from "ng-query-builder";
 import { AppComponent } from "./app.component"
 
 @NgModule(imports: [
@@ -42,7 +42,7 @@ export class AppModule { }
 ```
 ##### `app.component.ts`
 ```javascript
-import { QueryBuilderConfig } from 'ngx-angular-query-builder';
+import { QueryBuilderConfig } from 'ng-query-builder';
 
 export class AppComponent {
   query = {
