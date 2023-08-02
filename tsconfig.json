@@ -9,14 +9,19 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "downlevelIteration": true,
     "paths": {
       "ng-query-builder": [
-        "dist/ng-query-builder/ng-query-builder",
         "dist/ng-query-builder"
+      ],
+      "ng-query-builder/*": [
+        "dist/ng-query-builder/*"
       ]
     },
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
