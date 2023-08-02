@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ngx-angular-query-builder
+ * Public API Surface of ng-query-builder
  */
 
 export * from './lib/query-builder/query-builder.interfaces';
